@@ -14,7 +14,7 @@ import java.io.IOException;
 
 import com.breakfastquay.minibpm.MiniBpm;
 
-public class MiniBpmExample extends Activity
+public class MiniBpmExampleActivity extends Activity
 {
     /** Called when the activity is first created. */
     @Override
