@@ -13,6 +13,10 @@ Android-specific Java code here is absolutely not something that you
 should refer to in your own work. This is simply an illustration of
 the use of the JNI (Android NDK) interface.
 
+In fact, the application has an empty user interface: all it does is
+estimate the tempo of an audio file that is bundled into the app as a
+resource, and send the results to the logger (use adb logcat to view).
+
 To build:
 
    $ ndk-build
