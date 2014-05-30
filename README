@@ -1,0 +1,24 @@
+
+MiniBPM Android Simple Sample
+=============================
+
+This is a very trivial example Android application that uses the
+MiniBPM tempo estimator.
+
+This project serves as an example of how to link to, and call to,
+MiniBPM from Java code in an Android application.
+
+It is *not* an example of how to write an Android application! The
+Android-specific Java code here is absolutely not something that you
+should refer to in your own work. This is simply an illustration of
+the use of the JNI (Android NDK) interface.
+
+To build:
+
+   $ ndk-build
+   $ ant debug
+   $ ant debug install
+
+The example code is public domain; the MiniBPM licence is documented
+separately (see http://www.breakfastquay.com/minibpm/).
+
